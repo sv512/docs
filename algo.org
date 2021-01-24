@@ -4,7 +4,7 @@
 
 *** Palette (dans les images)
 
-[[wikipedia:Palette_(computing)][https://en.wikipedia.org/wiki/Palette_(computing)]]
+[[https://en.wikipedia.org/wiki/Palette_(computing)][https://en.wikipedia.org/wiki/Palette_(computing)]]
 
 ** C# avec .NET
 
