@@ -1,0 +1,49 @@
+* Connaissances Algorithmiques
+
+** Généralités
+
+*** Palette (dans les images)
+
+[[wikipedia:Palette_(computing)][wiki]]
+
+** C# avec .NET
+
+*** Copie d'un morceau d'image
+
+#+begin_src csharp
+RectangleF rectangle = new RectangleF(origineX, origineY, largeur, hauteur);
+#+end_src
+
+*** Faire une copie d'une image Bitmap
+
+#+begin_src csharp
+Bitmap bitmap = bitmapOrigine.Clone() as Bitmap;
+#+end_src
+
+*** Définir une couleur comme transparente
+
+#+begin_src csharp
+bitmap.MakeTransparent(couleur);
+#+end_src
+
+** Forms (Windows uniquement)
+
+*** Changer les propriétés d'un objet
+
+Clique droit sur l'objet -> Propriétés
+
+*** Accéder au code caché
+
+Clique droit sur l'objet -> Voir le Code
+
+*** Taille automatique des objets
+
+**** Objets de manière générale
+
+Dans propriétés: Changer "Anchors" et prier
+
+**** Étape supplémentaire pour les images
+
+#+begin_src csharp
+pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+#+end_src
