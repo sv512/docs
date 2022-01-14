@@ -262,7 +262,7 @@ std::ostream &operator <<(std::ostream &output, const Card &card) {
 }
 ```
 
-> Note : `ostream` signifie "<u>o</u>utput <u>stream</u>"
+> Note : `ostream` signifie "<ins>o</ins>utput <ins>stream</ins>"
 
 > Note : `operator <<` retourne le `std::ostream &` plutôt qu'un `void` pour pouvoir enchaîner les appels :
 
@@ -319,6 +319,6 @@ std::istream &operator >>(std::istream &input, Card &card) {
 }
 ```
 
-> Note : `istream` signifie "<u>i</u>nput <u>stream</u>"
+> Note : `istream` signifie "<ins>i</ins>nput <ins>stream</ins>"
 
 > Note : les même remarques que dans `std::ostream` s'appliquent
