@@ -9,7 +9,7 @@ Ce document à pour but de résumer quelques notion sur les classes en C++ via d
 ```cpp
 // --- card.hpp --- //
 
-#pragma once // <- fait en sort que le fichier ne soit inclus qu'une fois
+#pragma once // <- fait en sorte que le fichier ne soit inclus qu'une fois
 
 class Card {}; // <- doit toujours se terminer par ';'
 
