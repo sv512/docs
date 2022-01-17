@@ -1,6 +1,6 @@
 # OOP en C++
 
-*Document version 1*
+*Document version 2*
 
 Ce document à pour but de résumer quelques notion sur les classes en C++ via des exemples simples. Il n'est donc pas nécessairement complet
 
@@ -306,6 +306,9 @@ Card::Card(int hp) : m_hp(hp) {}
 std::istream &operator >>(std::istream &input, Card &card) {
     int hp;
     input >> hp;
+
+    if (!input) // <- entrée est invalide ?
+        return input;
 
     if (hp < 1) {
         // HP < 1 => entrée invalide
